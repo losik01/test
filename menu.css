@@ -79,6 +79,7 @@ body{
 
 }
 
+
 @media screen and (max-width:1200px) {
     .right-nav a{
         padding: 0px 10px;
@@ -92,7 +93,6 @@ body{
 @media screen and (max-width:900px){
     body{
         overflow-x: hidden;
-
     }
 
     .right-nav{
@@ -100,13 +100,14 @@ body{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        
+
         background-color: rgba(0,0,0,0.8);
-        display: flex;
         flex-direction: column;
         width: 100%;
         transform: translatex(100%);
-        transition: 0.5s;
+        transition: transform 0.5s;
+
+        display: none;
     }
 
     .right-nav a{
@@ -134,7 +135,7 @@ body{
 
 .nav-active{
     transform: translatex(0%);
-
+    display: flex;
 }
 
 .toggle .line1{
