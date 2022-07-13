@@ -79,24 +79,6 @@ body{
 
 }
 
-.nav-active{
-    transform: translatex(0%);
-
-}
-
-.toggle .line1{
-    transform: rotate(-45deg) translate(-6px,7px);
-}
-
-.toggle .line2{
-    opacity: 0;
-
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-6px,-7px);
-
-}
-
 @media screen and (max-width:1200px) {
     .right-nav a{
         padding: 0px 10px;
@@ -148,4 +130,22 @@ body{
         right: 25px;
         padding: 12px 5px;
     }
+}
+
+.nav-active{
+    transform: translatex(0%);
+
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-6px,7px);
+}
+
+.toggle .line2{
+    opacity: 0;
+
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-6px,-7px);
+
 }
