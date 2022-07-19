@@ -1,5 +1,5 @@
 body{
-    padding-bottom: 500px;
+
     font-family: 'Roboto', arial;
     margin: 0;
     overflow-x: hidden;
@@ -20,7 +20,6 @@ body{
     height: 60px;
     margin-top: 7px;
     background-color: rgba(255, 255, 255, 0.3);
-
 }
 
 .logo{
@@ -69,6 +68,7 @@ body{
 .hamburger{
     display: none;
     cursor: pointer;
+
 }
 
 .hamburger div{
@@ -77,7 +77,8 @@ body{
     background-color: white;
     margin: 5px;
     transition: 0.5s;
-
+    box-shadow: 1px 2px 5px rgb(48, 47, 47);
+    border-radius: 5px;
 }
 
 
@@ -145,5 +146,4 @@ body{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-6px,-7px);
-
 }
