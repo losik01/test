@@ -1,0 +1,13 @@
+.footer{
+    background-color: #282d32;
+    height: 400px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 350px);
+}
+
+.footer div{
+    border: 1px solid red;
+
+}
