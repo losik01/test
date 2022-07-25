@@ -1,13 +1,54 @@
 .footer{
-    background-color: #282d32;
-    height: 400px;
-    color: white;
+    margin: 0;
+    background-color: rgba(197,196,196,255);
+    height: 250px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 350px);
+    grid-template-columns: repeat(4, 280px);
+
 }
 
-.footer div{
+
+.img-part,
+.predpis-part,
+.kontakt-part,
+.udaje-part{
     border: 1px solid red;
+    font-size: 16px;
+    display: grid;
+    grid-template-rows: repeat(3, 50px);
+    align-items: center;
+    justify-content: center;
+}
+
+.predpis-part,
+.kontakt-part,
+.udaje-part{
+    padding-top: 50px;
+}
+
+.kontakt-part p{
+    margin: 0;
 
 }
+
+.img-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-part img{
+    width: 250px;
+}
+
+.kontakt-part img{
+    width: 23px;
+}
+
+.adresa{
+    display: flex;
+
+}
+
+
